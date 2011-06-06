@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="15dp">
+	
+    <EditText
+	    android:id="@+id/InputUserId"
+	    android:layout_height="wrap_content"
+	    android:hint="User id"
+	    android:inputType="number"
+	    android:layout_width="fill_parent"
+	    android:layout_marginBottom="10dp" />
+	    
+    <EditText
+	    android:id="@+id/InputDeviceId"
+	    android:layout_height="wrap_content"
+	    android:hint="Device Id"
+	    android:layout_width="fill_parent"
+	    android:layout_marginBottom="10dp" />	
+	    	    
+    <EditText
+	    android:id="@+id/InputDeviceBrand"
+	    android:layout_height="wrap_content"
+	    android:hint="Brand"
+	    android:layout_width="fill_parent"
+	    android:layout_marginBottom="10dp" />	    
+	    
+    <EditText
+	    android:id="@+id/InputDeviceModel"
+	    android:layout_height="wrap_content"
+	    android:hint="Model"
+	    android:layout_width="fill_parent"
+	    android:layout_marginBottom="10dp" />
+	        
+    <EditText
+	    android:id="@+id/InputPhoneNumber"
+	    android:layout_height="wrap_content"
+	    android:hint="Phone Number"
+	    android:inputType="phone"
+	    android:layout_width="fill_parent"
+	    android:layout_marginBottom="10dp" />
+	    
+	<Button
+	    android:id="@+id/ButtonSendForm"
+	    android:layout_height="80dp"
+	    android:text="Envoyer"
+	    android:layout_width="fill_parent"/>
+		    
+</LinearLayout>
